@@ -1,0 +1,15 @@
+body{
+     width:1000px;
+     height:auto;
+     margin: 0px;
+}
+.header{
+     background-color: #1F2937;
+     font-size: 24px;
+     color: #F9FAF8;
+     height: 150px;
+}
+.header a{
+     text-decoration: none;
+     color: #F9FAF8;
+}
