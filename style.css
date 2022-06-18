@@ -6,18 +6,29 @@ body{
      width:auto;
      height:auto;
     
+    
 }
 .header{
      background-color: #1F2937;
      font-size: 24px;
      color: #F9FAF8;
      height: 150px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     justify-items: center;
 }
-.header a{
+.links{
+     display: flex;
+
+}
+.links a{
      text-decoration: none;
      color: #F9FAF8;
      font-size: 18px;
+     font-weight: 500;
      color: #E5E7EB;
+     padding: 20px;
 }
 .footer{
      background-color: #1F2937;
