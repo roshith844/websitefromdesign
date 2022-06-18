@@ -7,9 +7,10 @@ body{
      width: auto;
      height:auto;
 }
-h3{
+body h2{
      text-align: center;
-     padding-top: 10px;
+     padding-top: 20px;
+     font-size: 60px;
 }
 button{
      background-color:#3882F6;
@@ -122,9 +123,7 @@ button{
      font-weight: bolder;
      color: #1F2937;
 }
-.inside-box{
-     background-color:#3882F6;
-}
+
 
 .quote-section{
      background-color: #E5E7EB;
@@ -153,6 +152,40 @@ button{
      color: #1F2937;
 
 }
+.right button{
+   font-size: larger;
+   border-width: 5px;
+   border-radius: 15%;
+   border-color:white;
+   padding: 10px 50px;
+   font-weight: 700;
+   margin-top: 5px;
+}
+.inside-box{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+      background-color:#3882F6;
+     margin: 100px 10%;
+     border-radius: 10px;
+     color: #E5E7EB;
+}
+.left,.right{
+     padding: 80px 0px;
+}
+.left .main{
+     font-size: 50px;
+}
+.left .des{
+     font-size: 30px;
+}
 .footer{
+
      background-color: #1F2937;
+     padding: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #F9FAF8;
+     font-size: 20px;
 }
