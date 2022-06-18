@@ -128,6 +128,24 @@ button{
 
 .quote-section{
      background-color: #E5E7EB;
+     width: auto;
+     height: auto;
+}
+.quote-container{
+     display: flex;
+     flex-direction: column;
+     margin-left: 10%;
+     margin-right: 10%;
+     padding: 200px;
+}
+
+.quote{
+    align-self: center;
+
+}
+.name{
+     align-self: flex-end;
+     font-size: 25px;
 }
 .quote p{
      font-size: 36px;
