@@ -50,8 +50,6 @@ body{
      justify-items: center;
      margin-left: 10%;
      margin-right: 10%;
-
-
 }
 .hero-section h2{
 
@@ -59,13 +57,26 @@ body{
     font-weight: bolder;
     color: #F9FAF8;
 }
-.hero-section p{
+.hero-section{
      font-size: 18px;
      color: #E5E7EB;
 }
+
 button{
      background-color:#3882F6;
 }
+.hero-content button{
+   color: #F9FAF8;
+   font-size: larger;
+   border-radius: 10%;
+   padding: 18px;
+   font-weight: 700;
+   margin-top: 5px;
+}
+.hero-content p{
+     padding: 5px;
+}
+
 .inside-box{
      background-color:#3882F6;
 }
