@@ -7,9 +7,12 @@ body{
      width: auto;
      height:auto;
 }
+h3{
+     text-align: center;
+}
 button{
      background-color:#3882F6;
-     border-color: #3882F6;;
+     border-color: #3882F6;
 }
 .header{
      background-color: #1F2937;
